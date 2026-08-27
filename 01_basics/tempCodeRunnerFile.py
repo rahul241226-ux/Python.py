@@ -1,9 +1,13 @@
-print("hello Rahul")
+# print("hello Rahul")
 
 
 
 
-def rahul(n):
-    print(n)
+# def rahul(n):
+#     print(n)
 
-rahul(9)
+# rahul(9)
+
+
+
+print("my name is dev sah ")
