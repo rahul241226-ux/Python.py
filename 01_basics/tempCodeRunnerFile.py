@@ -1,13 +1,28 @@
-# print("hello Rahul")
+print("hello Rahul")
 
 
 
 
-# def rahul(n):
-#     print(n)
+def rahul(n):
+    print(n)
 
-# rahul(9)
+rahul(9)
 
 
 
-print("my name is dev sah ")
+for r in "rahulsah":
+    print(r);
+
+
+
+
+#immutable and muttable
+
+x=10
+
+y=x
+print("x:",x)
+print("y:",y)
+x=20
+print("x:",x)
+print("y:",y)
