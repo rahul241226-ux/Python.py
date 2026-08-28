@@ -13,6 +13,3 @@ if"green" in all_tea:
     print("i have green tea")
 
 
-more_tea = ("herbal", "earl grey", "herbal")
-more_tea.count("herbal")
-  print(more_tea)
