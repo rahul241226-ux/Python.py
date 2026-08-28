@@ -91,7 +91,7 @@ print("Length of my_list:", len(my_list))
 
 #4.Dictionary: it is a collection of key value pairs, in {}
 
-my_dict = {"name": "Rahul", "age": 25, "city": "New York"}# there is key and value pair in dictionary ..
+my_dict = {"name": "Rahul", "age": 25, "city": "New York"}# there is key and value pair in dictionary 
 
 print("Length of my_dict:", len(my_dict))
 print("Length of my_dict:", my_dict["name"])
@@ -190,3 +190,144 @@ print(m==n)
 
 m is n 
 print(m is n )
+
+
+
+
+
+
+
+
+
+
+
+
+#Numbers in python
+
+
+x= 2
+y=3
+z=4
+print("add of x and y:", x+y)
+print("add of x and y and multi z:", (x+y)*z)
+print("add of x and y:", 40.4+2.4)
+print("add of x and y:", int(40.4+2.4))
+print("add of x and y:", float(40.4+2.4))
+print("add of x and y:", 'rahul'+'sah')
+
+
+print("add of x with 1  and y with 1:",x+1,y+1)
+print("power of z is 2:", z**2)
+print("power of 2 is 1000:", 2**1000)#py can handel much higher byte
+
+print("reper:",repr('rahul'))
+print("string:",str('rahul'))
+print("print:",'rahul')
+
+
+
+print(1== 2 < 3)
+
+
+
+
+
+import math 
+print(math.floor(3.5))#to lower value
+print(math.floor(-3.5))
+print(math.trunc(3.5))#towards zero
+print(math.trunc(-3.5))
+
+
+#complex number in python
+print(2+3j)
+print((2+3j)*3)
+
+
+#octals 
+print(0o10)
+print(oct(64))
+
+
+#hexal
+print(0x10)
+print(hex(16))
+
+
+#binary 
+print(0b1000)
+print(bin(8))
+
+
+
+
+#conversion from int to oct,hex,binary
+print(int('64',8))
+print(int('64',16))
+print(int('10000',2))
+
+
+
+
+
+#left shift
+x=1
+print(x<<2)
+
+
+
+
+#right shift
+x=1
+print(x>>2)
+
+
+
+import random
+print("random number between 1 and 10:",random.randint(1,10))
+
+l1=['A','B','C','D','E','F','G','H','I']
+print("random choice from l1:",random.choice(l1))
+
+
+l2=['rahul','raja','dev','aadi','raju']
+random.shuffle(l2)
+print("random suffle from l1:",l2)
+
+
+
+
+#we can import decimal
+from decimal import Decimal
+print(Decimal('0.1')+Decimal('0.1')-Decimal('0.4'))
+
+
+#we can import fraction
+from fractions import Fraction
+myfra=Fraction(2,7)
+print(myfra)
+
+
+
+
+
+#SETS
+
+setone={1,2,3,4}
+intersection=setone & {1,3}
+print(intersection)
+
+setone={1,2,3,4}
+union=setone | {1,8,9}
+print(union)
+
+
+
+
+#Bollean
+
+print(True==1)
+print(False==1)
+
+print(True + 4)#True is equal to 1
+print(False + 4)#False is equal to 0
