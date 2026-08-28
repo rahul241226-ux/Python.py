@@ -197,11 +197,6 @@ print(m is n )
 
 
 
-
-
-
-
-
 #Numbers in python
 
 
