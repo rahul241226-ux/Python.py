@@ -85,7 +85,7 @@ print(squared_num)
 
 
 
-#
+#adding values to individual keys
 keys=["masala", "ginger", "lemon"]
 print(keys)
 
