@@ -1,3 +1,5 @@
+#marks of student  
+
 
 marks= int(input("enter the marks of student:"))
 
