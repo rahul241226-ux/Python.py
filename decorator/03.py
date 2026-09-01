@@ -6,7 +6,6 @@
 
 import time
 
-
 def cache(func):
     cache_value = {}
     def wrapper(*args):
@@ -27,3 +26,5 @@ print(long_running_function(2,3))
 print(long_running_function(2,5))
 print(long_running_function(9,3))
 print(long_running_function(5,5))
+
+
